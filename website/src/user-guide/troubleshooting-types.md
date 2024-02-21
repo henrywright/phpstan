@@ -78,4 +78,4 @@ Of course this function should never become part of code running in production, 
 What PHPStan doesn't do
 ---------
 
-PHPStan doesn't descend into a called function's body to see what's going on there. The native types, the PHPDocs, and the registered [dynamic return type](/developing-extensions/dynamic-return-type-extensions) and [type-specifying extensions](/developing-extensions/type-specifying-extensions) are everything that's used to figure out how the types are going to impacted.
+PHPStan doesn't descend into a called function's body to see what's going on there. The native types, the PHPDocs, and the registered [dynamic return type](/developing-extensions/dynamic-return-type-extensions) and [type-specifying extensions](/developing-extensions/type-specifying-extensions) are everything that's used to figure out how the types are going to be impacted.
